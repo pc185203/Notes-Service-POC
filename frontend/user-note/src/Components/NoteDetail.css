@@ -1,0 +1,76 @@
+.note-detail{
+padding: 20px;
+max-width: 600px;
+margin: 20px auto;
+}
+
+.note-detail h1{
+margin-bottom: 4px;
+}
+
+textarea{
+width: 96%;
+resize: none;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+margin-bottom: 15px;
+}
+
+.btn-group{
+display: flex;
+gap: 10px;
+}
+
+.back-btn, .delete-btn, .edit-btn, .save-btn{
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: none;
+}
+
+.back-btn{
+background-color: #f0f0f0;
+box-shadow: 1px 1px 5px 1px grey;
+}
+
+.save-btn, .edit-btn {
+background-color: #1F6357;
+color: white;
+box-shadow: 1px 1px 5px 1px grey;
+height: 48px;
+}
+
+.save-btn:hover, .edit-btn:hover {
+background-color: #45a049;
+}
+
+.back-btn:hover{
+background-color: #ffffe3;
+}
+
+.delete-btn{
+background-color: #ff0000;
+color: white;
+box-shadow: 1px 1px 5px 1px grey;
+height: 48px;
+}
+
+.delete-btn:hover{
+background-color: #ff4500;
+}
+
+.date {
+  letter-spacing: 1px;
+}
+
+error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 30px;
+  visibility: hidden;
+}
+
+.error-message.show {
+  visibility: visible;
+}

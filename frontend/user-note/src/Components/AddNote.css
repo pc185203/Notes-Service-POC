@@ -1,0 +1,79 @@
+.add-note-box {
+display: flex;
+flex-direction: column;
+align-items: flex-start; /* Align items to the start */
+width: 100%;
+max-width: 600px; /* Set a max width for the box */
+margin: 0 auto; /* Center the box horizontally */
+}
+
+.add-note-box h1 {
+margin: 0 0 19px 0; /* Align heading with textarea */
+}
+
+.container1 {
+  margin: 80px auto;
+}
+
+.textarea-container {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+textarea {
+resize: none; /* Full width of the container */
+padding: 15px;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.char-count {
+font-size: 15px;
+margin-top: 2px;
+}
+
+.btn-group {
+display: flex;
+justify-content: space-between; /* Space between buttons */
+width: 100%; /* Full width of the container */
+margin-top: 30px;
+}
+
+.cancel-btn, .save-btn {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: none;
+}
+
+.cancel-btn {
+background-color: #f0f0f0;
+box-shadow: 1px 1px 5px 1px grey;
+}
+
+.save-btn {
+background-color: #1F6357;
+color: white;
+box-shadow: 1px 1px 5px 1px grey;
+height: 48px;
+}
+
+.save-btn:hover {
+background-color: #45a049;
+}
+
+.cancel-btn:hover{
+background-color: #ffffe3;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 30px;
+  visibility: hidden;
+}
+
+.error-message.show {
+  visibility: visible;
+}

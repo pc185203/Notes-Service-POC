@@ -1,0 +1,107 @@
+.container {
+  width: 40%;
+  margin-top: 0px ;
+  padding-left: 500px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 20px;
+}
+
+.notes-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 14px;
+}
+
+.notes-text {
+  font-size: 39px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.add-btn {
+  padding: 12px 24px;
+  background-color: LightGray;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 1px 1px 5px 1px grey;
+  margin-top: 7px;
+}
+
+.logout-btn {
+  padding: 12px 24px;
+  background-color: LightGray;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 1px 1px 5px 1px grey;
+}
+
+.logout-btn:hover {
+  box-shadow: 1px 1px 5px 3px grey;
+}
+
+.add-btn:hover {
+  box-shadow: 1px 1px 5px 3px grey;
+}
+
+.plus {
+  font-weight: 900;
+  font-size: 19px;
+  margin-right: 5px;
+  color: DodgerBlue;
+}
+
+.notes-table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.notes-table th, .notes-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.notes-table th {
+  background-color: #3c3c3c;
+  color: white;
+}
+
+.notes-table tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.notes-table tr:hover {
+  background-color: #b0b0b0;
+}
+
+.notes-table tbody:hover {
+  cursor: pointer;
+}
+
+.date-col {
+  width: 22%;
+}
+
+.date {
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+

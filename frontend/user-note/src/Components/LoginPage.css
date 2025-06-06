@@ -1,0 +1,94 @@
+/* Background with Gradient */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+/* Login Box */
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  height: 400px;
+}
+
+/* Title */
+.login-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.error-message.show {
+  visibility: visible;
+}
+
+/* Form Group */
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 25px;
+}
+
+.form-group label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #666;
+}
+
+/* Input Field */
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding: 5px;
+  transition: border-color 0.3s;
+}
+
+.input-wrapper:focus-within {
+  border-bottom: 2px solid #3b82f6;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 19px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* Submit Button with Gradient */
+.submit-btn {
+  width: 100%;
+  background: Gray;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background: LightGray;
+}
